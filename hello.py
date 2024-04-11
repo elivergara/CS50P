@@ -36,7 +36,9 @@
 
 # Now using parameter defaults in a function
 def hello(to="world"):
-    print(f"Hello, {to}")
+    print(f"Hello", to)
+
+hello()
 name = input("What's your name? ").strip().title()
 hello(name)
 
