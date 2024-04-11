@@ -18,6 +18,6 @@ print("Hello, \"Friend\"") # ESACAPING: using \
 first, last = name.split(" ")
 print(f"Hola, {first}")
 
-1:00hr https://video.cs50.io/JP7ITIXGpHk
+# 1:00hr https://video.cs50.io/JP7ITIXGpHk
 
 
