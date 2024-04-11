@@ -20,3 +20,4 @@ def greeting():
     first, last = name.split(" ")
     print(f"Hola, {first}")
 greeting()
+
