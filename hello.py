@@ -31,5 +31,5 @@ def greet(input):
     else:
         print("I don't know what you mean.")
 
-greet()
+greet("hello")
 
