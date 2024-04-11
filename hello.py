@@ -25,11 +25,9 @@ greeting()
 
 def greet(input):
     if "hello" in input:
-        print("Hello, " + name)
-    elif "hi" in input:
-        print("Hi, " + name)
+        return "Hello, there"
     else:
-        print("I don't know what you mean.")
+       return "I don't know what you mean."
 
-greet("hello")
-
+greet2 = greet("hello, computer")
+print(greet2)
