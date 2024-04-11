@@ -20,5 +20,8 @@ y = float(input("What's Y "))
 # print(x+y)
 
 # Rounding the result, and formatting it to use comma for the thousands
-print(f"{round(x+y):,}")
+# print(f"{round(x+y):,}")
 
+# Now try with division
+z = x / y
+print(z)
