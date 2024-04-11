@@ -11,5 +11,6 @@ x = int(input("What's X "))
 y = int(input("What's Y "))
 print(x+y)
 
-# Further improved
+# Alternative though not necessarily improved
 print(int(input("What's X "))+int(input("What's Y ")))
+
