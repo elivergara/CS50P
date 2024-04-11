@@ -35,15 +35,15 @@
 # print(greet2, name)
 
 # Now using parameter defaults in a function
+
+def hello(to="world"):
+    print(f"Hello, {to}")
+
 def main():
     name = input("What's your name? ").strip().title()
     hello(name)
 
-def hello(to="world"):
-    print(f"Hello", to)
-
 main()
-
 
 
 
