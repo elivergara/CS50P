@@ -29,5 +29,5 @@ def greet(input):
     else:
        return "I don't know what you mean."
 
-greet2 = greet("hello, computer")
+greet2 = greet("hi, computer")
 print(greet2)
