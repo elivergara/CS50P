@@ -1,7 +1,7 @@
-x = input("What's X ")
+x = int(input("What's X "))
 y = input("What's Y ")
 
-z = x+y
+z = x+int(y)
 
 print(z)
 
