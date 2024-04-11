@@ -21,3 +21,15 @@ def greeting():
     print(f"Hola, {first}")
 greeting()
 
+
+
+def greet(input):
+    if "hello" in input:
+        print("Hello, " + name)
+    elif "hi" in input:
+        print("Hi, " + name)
+    else:
+        print("I don't know what you mean.")
+
+greet()
+
