@@ -22,6 +22,7 @@ def greeting():
 greeting()
 
 
+# Functions and returning
 def greet(take_input):
     if "hello" in take_input:
         return "Hello, there"
@@ -32,3 +33,4 @@ name = input("What's your name? ").strip().title()
 take_input = input("Greet the computer ").lower()
 greet2 = greet(take_input)
 print(greet2, name)
+
