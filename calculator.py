@@ -23,5 +23,6 @@ y = float(input("What's Y "))
 # print(f"{round(x+y):,}")
 
 # Now try with division
-z = x / y
+z = round(x / y, 2)
 print(z)
+# or usinf f string
