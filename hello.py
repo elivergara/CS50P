@@ -19,6 +19,4 @@ def greeting():
     # Split user's name into first and last name
     first, last = name.split(" ")
     print(f"Hola, {first}")
-
-
 greeting()
