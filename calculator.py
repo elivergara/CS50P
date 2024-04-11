@@ -25,4 +25,6 @@ y = float(input("What's Y "))
 # Now try with division
 z = round(x / y, 2)
 print(z)
-# or usinf f string
+# or usinf f string:
+z = x / y
+print(f"{x / y:.2f}")
