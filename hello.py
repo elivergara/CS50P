@@ -34,3 +34,8 @@ take_input = input("Greet the computer ").lower()
 greet2 = greet(take_input)
 print(greet2, name)
 
+def get_guess():
+    guess = input("Guess a number between 1 and 10: ")
+    return guess
+
+print(get_guess())
