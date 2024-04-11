@@ -19,6 +19,6 @@ x = float(input("What's X "))
 y = float(input("What's Y "))
 # print(x+y)
 
-# Rounding the result
+# Rounding the result, and formatting it to use comma for the thousands
 print(f"{round(x+y):,}")
 
