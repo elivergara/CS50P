@@ -22,8 +22,8 @@ def greeting():
 greeting()
 
 
-
-def greet(input):
+take_input = input("Greet the computer").lower()
+def greet(take_input):
     if "hello" in input:
         return "Hello, there"
     else:
