@@ -17,8 +17,8 @@
 # Using float
 x = float(input("What's X "))
 y = float(input("What's Y "))
-print(x+y)
+# print(x+y)
 
 # Rounding the result
-print(round(x+y),2)
+print(round(x+y))
 
