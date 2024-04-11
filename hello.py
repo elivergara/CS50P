@@ -8,17 +8,14 @@ name = input("What's your name? ").strip().title() #Input expects text
 # See top line for final line
 # Say hello to user
 def greeting():
-print("Hello, " + name) #Needs to have a space after "Hello,"
-print("Hello,", name, "How are you? ", end="")  #Does not need to have a space after "Hello,". Adds it automatically.
-#end=\n is the default.
-print(f"Hello, {name}", "What's up?", sep="*") #Format String. Default is a space " _"
+    print("Hello, " + name)  # Needs to have a space after "Hello,"
+    print("Hello,", name, "How are you?", end="")  # Does not need to have a space after "Hello,". Adds it automatically.
+    # end=\n is the default.
+    print(f"Hello, {name}", "What's up?", sep="*")  # Format String. Default is a space " _"
+    print("Hello, \"Friend\"")  # ESACAPING: using \
+    # Split user's name into first and last name
+    first, last = name.split(" ")
+    print(f"Hola, {first}")
 
-print("Hello, \"Friend\"") # ESACAPING: using \
-
-#Split user's name into first and last name
-first, last = name.split(" ")
-print(f"Hola, {first}")
-
-# 1:00hr https://video.cs50.io/JP7ITIXGpHk
-
+greeting()
 
