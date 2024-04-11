@@ -7,6 +7,7 @@ name = input("What's your name? ").strip().title() #Input expects text
 # name.strip().title()  # capitalize all words at once
 # See top line for final line
 # Say hello to user
+def greeting():
 print("Hello, " + name) #Needs to have a space after "Hello,"
 print("Hello,", name, "How are you? ", end="")  #Does not need to have a space after "Hello,". Adds it automatically.
 #end=\n is the default.
