@@ -22,12 +22,13 @@ def greeting():
 greeting()
 
 
-take_input = input("Greet the computer").lower()
 def greet(take_input):
-    if "hello" in input:
+    if "hello" in take_input:
         return "Hello, there"
     else:
        return "I don't know what you mean."
 
-greet2 = greet("hello")
+
+take_input = input("Greet the computer").lower()
+greet2 = greet(take_input)
 print(greet2, name)
