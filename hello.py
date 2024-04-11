@@ -41,9 +41,13 @@ def hello(to="world"):
 
 def main():
     name = input("What's your name? ").strip().title()
-    hello(name)
+    if name:  # If name is not empty, use it
+        hello(name)
+    else:  # If name is empty, don't pass any arguments to hello
+        hello()
 
 main()
+
 
 
 
