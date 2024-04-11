@@ -28,7 +28,7 @@ def greet(take_input):
     else:
        return "I don't know what you mean."
 
-
-take_input = input("Greet the computer").lower()
+name = input("What's your name? ").strip().title()
+take_input = input("Greet the computer ").lower()
 greet2 = greet(take_input)
 print(greet2, name)
