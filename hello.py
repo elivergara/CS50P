@@ -34,8 +34,16 @@ take_input = input("Greet the computer ").lower()
 greet2 = greet(take_input)
 print(greet2, name)
 
+
+# Learn the difference between a str and an int as an input
 def get_guess():
-    guess = input("Guess a number between 1 and 10: ")
-    return guess
+    guess = int(input("Guess a number: "))
+    if guess == 50:
+        print("Correct!")
+    else:
+        print("Wrong!")
+        return get_guess()
 
 print(get_guess())
+
+
